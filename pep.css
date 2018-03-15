@@ -1,0 +1,212 @@
+* {
+ margin:0px;
+ padding:0px;
+ }
+
+.bg{
+ width:100%;
+ margin:auto;
+ }
+ 
+.container{
+ width:1000px;
+ /*background-color:black;*/
+ background-color: white;
+ padding-bottom: 103px;
+ margin: auto;
+ }
+ 
+.wrapper{
+ width:1000px;
+ height:500px;
+ height:300px;
+ margin:auto;
+ background-image:linear-gradient(#15385f,#2886be);
+ position:relative;
+}
+
+.wrapper:before {
+        content: '';
+    position: absolute;
+    top: 40px;
+    right: 48%;
+    bottom: 52%;
+    left: 32%;
+    background-image: url(images/cloud1.png);
+    background-size: contain;
+  }
+
+.logo{
+ float:left;
+ margin-top:30px;
+ padding-left:100px;
+ padding-right:180px;
+ display:inline-block;
+ }
+ .livechat{
+    float: left;
+    color: white;
+    margin-top: 50px;
+    display: inline-block;
+ }
+ .form{
+   float:right;
+   background-color:black;
+   color:white;
+   margin-top:30px;
+   display:inline-block;
+   padding-left:11px;
+ }
+ 
+.top_menu{
+   clear:both;
+   width:1000px;
+   height:30px;
+   color:white;
+   background:linear-gradient(#444343,#010101);
+   z-index: 10;
+    position: relative;
+  }
+  
+  .top_menu ul{
+   list-style-type:none;
+   margin:0 0 0 100px;
+   padding:0;
+   }
+   
+ .top_menu li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+    float:left;
+  }
+ .top_menu li a:hover{
+  background-color:#c3080a;
+ }
+ 
+.banner{
+    width: 700px;
+    margin-left: 119px;
+    background-color: #092e54;
+ }
+ 
+ .info_boxlayout{
+     padding-top: 87px;
+    padding-left: 119px;
+    background-color:white;
+    }
+ 
+ .info_box{
+ border:2px solid #dcdada;
+ width:200px;
+ height:150px;
+ padding-top:10px;
+ padding-left:5px;
+ border-top-right-radius:20px;
+ border-bottom-left-radius: 15px;
+ display:inline-block;
+ background-color:#eeeeee;
+ color:black;
+ margin-right:20px;
+ margin-bottom:30px;
+ -webkit-font-smoothing: antialiased;
+  }
+ 
+ .view{
+ display:block;
+ font-size:1em;
+ width:90px;
+ text-align:center;
+ height:30px;
+ color:white;
+ float:right;
+ padding:0px 2px 0px 2px;
+ background-image:linear-gradient(red,black);
+ border-radius:3px;
+ }
+ 
+ .roadbg{
+   clear:both;
+   width:1000px;
+   height:105px;
+   float:left;
+   display:inline-block;
+   background-image:url(images/city-clipart.jpg); 
+   background-size: contain;  
+   margin:0px;
+   padding:0px;  
+   background-repeat: repeat-x;
+   
+   }
+  
+  .roadbg img{
+  width:120px;
+  height:100px;
+  }
+ .road1{
+   clear:both;
+   width:1000px;
+   height:20px;
+   background-color:#c72e4c;   
+ }
+ 
+ .footer{
+   clear:both;
+   width:1000px;
+   height:150px;  
+   background-color:#af0523; 
+   padding-top: 84px;
+  
+ }
+ 
+ .footerbg{
+  width:900px;
+  margin:auto;
+  height:30px;
+  background-color:black;
+  }
+ 
+ 
+ .footer ul{
+   list-style-type:none;
+   margin:0 0 0 100px;
+   padding:0;
+   }
+   
+ .footer li a{
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 5px 25px;
+    text-decoration: none;
+    float:left;
+  }
+ .footer li a:hover{
+  background-color:#c3080a;
+ }
+ 
+ .footer_rev{
+    float:left;
+     width:1000px;
+      color:#ccc;
+   font-weight:700;
+   display:inline-block;
+
+   margin-top:40px;
+   
+   
+   }
+ .footer_rev ul li{
+ display:inline-block;
+ margin-right:150px;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
